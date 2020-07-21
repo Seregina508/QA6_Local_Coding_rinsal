@@ -1,4 +1,15 @@
 const dataRegisterPage = {
     header: 'Create an account',
 };
-export {dataRegisterPage};
+
+    const RegisterData = {
+        firstName: 'Vova',
+        lastName: 'Green',
+        email: 'Genared@gmail.com',
+        password: 'Red123',
+
+}
+
+
+
+export {dataRegisterPage, RegisterData};
