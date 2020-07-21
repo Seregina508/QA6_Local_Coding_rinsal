@@ -1,6 +1,6 @@
-export default class BasePage{
+export default class BasePage {
 
-    open (path) {
+    open(path) {
         return browser.url(`https://stage.localcoding.us/${path}`)
     }
 };
